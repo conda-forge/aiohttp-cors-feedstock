@@ -1,5 +1,5 @@
 {% set name = "aiohttp-cors" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/aiohttp_cors/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: ec70f38432c938e39d240ff38a7d789a5aa0a18087882c12d6cc141eef1144f6
+  sha256: ccacf9cb84b64939ea15f859a146af1f662a6b1d68175754a07315e305fb1403
 
 build:
   number: 0
